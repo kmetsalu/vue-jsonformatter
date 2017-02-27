@@ -1,9 +1,14 @@
 {
   "name": "vue-jsonformatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js 2.0 compatible json formatter",
   "main": "src/index.js",
   "author": "Kristjan Metsalu",
+  "url": "https://github.com/kmetsalu/vue-jsonformatter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmetsalu/vue-jsonformatter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "json-formatter-js": "^1.3.0"
