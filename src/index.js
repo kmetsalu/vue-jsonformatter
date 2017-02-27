@@ -2,8 +2,8 @@ const JsonFormatter = require('json-formatter-js');
 
 module.exports = {
   install: function (Vue, options) {
-    Vue.directive("display-json", function (el, binding) {
-      console.log("display-json", el, binding);
+    Vue.directive("json-content", function (el, binding) {
+      // console.log("display-json", el, binding);
       let renderer = new JsonFormatter(binding.value);
       el.appendChild(renderer.render());
       if (!document.getElementById("json-formatter-style")) {
