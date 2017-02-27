@@ -1,6 +1,6 @@
 {
   "name": "vue-jsonformatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue.js 2.0 compatible json formatter",
   "main": "src/index.js",
   "author": "Kristjan Metsalu",
@@ -15,5 +15,9 @@
   },
   "peerDependencies": {
     "vue": "^2.2.1"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 4.0.0"
   }
 }
