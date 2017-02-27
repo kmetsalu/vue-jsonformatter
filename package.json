@@ -1,6 +1,6 @@
 {
   "name": "vue-jsonformatter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue.js 2.0 compatible json formatter",
   "main": "src/index.js",
   "author": "Kristjan Metsalu",
